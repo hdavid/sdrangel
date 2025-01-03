@@ -3,9 +3,9 @@ name: SDRangel Linux release build
 on:
   push:
     branches:
-      - linux_github_release
+      - XXXXlinux_github_release
     tags:
-      - 'v*'
+      - 'XXXXv*'
 
 jobs:
   build_deb:
