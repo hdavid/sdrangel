@@ -4,9 +4,9 @@ name: SDRangel snap release build
 on:
   push:
     branches:
-      - snap
+      - XXXXsnap
     tags:
-      - 'v*'
+      - 'XXXXv*'
 
 jobs:
   build_snap:
