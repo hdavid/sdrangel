@@ -3,9 +3,9 @@ name: SDRangel Mac release build
 on:
   push:
     branches:
-      - mac_ci
-    tags:
-      - 'v*'
+      - main
+#    tags:
+#      - 'v*'
 
 jobs:
   build_mac_x64:
