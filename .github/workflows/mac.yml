@@ -1,9 +1,9 @@
 name: SDRangel Mac release build
 
-on:
-  push:
-    branches:
-      - main
+on: [push]
+#  push:
+ #   branches:
+#      - main
 #    tags:
 #      - 'v*'
 
