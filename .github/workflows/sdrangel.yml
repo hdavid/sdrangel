@@ -5,11 +5,11 @@ name: SDRangel CI/CD
 on:
   push:
     branches:
-      - master
-      - mac_ci
+      - masterXXX
+      - mac_ciXX
     tags:
-      - 'v*'
-  pull_request:
+      - 'XXXv*'
+#  pull_request:
 
 jobs:
   build:
